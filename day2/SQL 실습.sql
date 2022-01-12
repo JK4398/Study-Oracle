@@ -94,3 +94,18 @@ SELECT ename, job, sal, sal*12 annsal
   SELECT ename, job, sal, sal*12 annsal
   FROM emp 
   WHERE ename LIKE '__RD';
+  
+  
+--NULL, 함수명 NVL() 나중에 알려줌
+SELECT ename, job, sal, comm
+  FROM emp 
+  WHERE comm IS NULL;     -- 반대는 IS NOT NULL
+  
+  --집합
+  SELECT empno, ename, job FROM emp
+  WHERE comm IS NOT NULL
+  UNION  ALL
+  SELECT deptno, dname, loc FROM dept;
+  
+  
+  
