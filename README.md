@@ -3,9 +3,9 @@ Oracle 학습 리포지토리
 
 
 ### 1일차
--Oracle 소개 및 설치
--SQL Developer 설치와 사용법 학습
--SQL 기본 SELECT 문 학습
+- Oracle 소개 및 설치
+- SQL Developer 설치와 사용법 학습
+- SQL 기본 SELECT 문 학습
 
 
 ### 2일차 학습
